@@ -19,9 +19,9 @@ func setRandom() int64 {
 
 func main() {
 
-	fmt.Printf("Bem-vindo ao jogo da adivinhação!\n\n-------------------------\n\n")
+	fmt.Printf("Bem-vindo ao jogo da adivinhação!\n\n--------------------------------------------\n\n")
 
-	vezesJogadas_tentativas := (make(map[int]int))
+	vezesJogadas_tentativas := make(map[int]int)
 	vezesJogadas := 1
 	vezesJogadas_tentativas[vezesJogadas]++
 
