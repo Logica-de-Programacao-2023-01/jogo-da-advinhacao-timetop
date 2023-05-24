@@ -46,7 +46,8 @@ func main() {
 
 		} else {
 
-			fmt.Printf("Parabéns, você acertou!\nVocê deseja jogar novamente? (s/n): ")
+			fmt.Printf("Parabéns, você acertou!\nVocê utilizou %d tentativas.\n", vezesJogadas_tentativas[vezesJogadas])
+			fmt.Print("Você deseja jogar novamente? (s/n): ")
 			repeat := ""
 			fmt.Scanln(&repeat)
 
